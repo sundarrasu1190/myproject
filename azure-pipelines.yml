@@ -1,19 +1,19 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+variables:
+  project_name: 'EnvironmentApi'
+  netcore_version: '2.2'
 
-trigger:
-- master
-
-pool:
-  vmImage: ubuntu-latest
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+jobs:
+- job: Build
+  steps:
+  - script: |
+      pwd && ls -la
+      dotnet restore 
+      dotnet publish -c Release -o bin/Release/netcoreapp$(netcore_version)
+      mkdir artifact
+      cp -r $(project_name)/bin/Release/netcoreapp$(netcore_version) artifact/$(Build.SourceBranchName)
+    displayName: Build Application
+  - task: PublishPipelineArtifact@1
+    displayName: Store Application Artifact
+    inputs:
+      path: $(System.DefaultWorkingDirectory)/artifact
+      artifact: $(project_name)
