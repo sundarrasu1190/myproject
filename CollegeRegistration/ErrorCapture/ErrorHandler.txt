@@ -1,0 +1,50 @@
+﻿
+Log Entry  : 
+Date & Time: 04/28/2014 20:48:09
+registration_aspx btnSearch_Click code Error in: Input string was not in a correct format.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:48:11
+registration_aspx btnSearch_Click code Error in: Input string was not in a correct format.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:53:51
+SqlServer: FillDataTable code: Error in: Error converting data type varchar to bigint.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:53:52
+SqlServer: FillDataTable code: Error in: Error converting data type varchar to bigint.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:53:54
+SqlServer: FillDataTable code: Error in: Error converting data type varchar to bigint.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:53:58
+SqlServer: FillDataTable code: Error in: Error converting data type varchar to bigint.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:54:01
+SqlServer: FillDataTable code: Error in: Error converting data type varchar to bigint.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:54:04
+SqlServer: FillDataTable code: Error in: Error converting data type varchar to bigint.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:58:22
+registration_aspx btnSearch_Click code Error in: Input string was not in a correct format.
+****************************************************************************
+
+Log Entry  : 
+Date & Time: 04/28/2014 20:58:24
+registration_aspx btnSearch_Click code Error in: Input string was not in a correct format.
+****************************************************************************

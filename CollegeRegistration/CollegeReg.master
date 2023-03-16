@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CollegeReg.master.cs" Inherits="CollegeReg" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/menu.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="crForm" runat="server">
+    <div class="registrationForm">
+            <div class="page">
+            &nbsp;&nbsp;&nbsp;College Registration<br />
+            <div class="tagline">
+                &nbsp;&nbsp;We need a few of your details</div>
+        </div>
+
+        <center>
+        <div class="contentpanel">
+        <asp:ContentPlaceHolder id="cph" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        </center>
+    </div>
+    <center>
+    <div id="footerlink">
+    <div style="font-weight:bold;color:White;">
+     Copyright © angler technologies | <a href="http://www.angleritech.com" target="_blank" style="font-weight:bold;color:White;">www.angleritech.com</a>
+        </div>
+    </div>
+    </center>
+    </form>
+</body>
+</html>

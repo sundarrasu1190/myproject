@@ -1,0 +1,232 @@
+﻿.dropdownStyle
+    {
+        overflow:hidden; /* this hides the select's drop button */
+        padding:0; 
+        margin:0;
+        height:28px;
+        background:url('../Images/select.png') no-repeat bottom right;
+        /* this is the new drop button, in image form */
+        width:206px;
+        border-radius:2px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        border: solid 1px #ccc; 
+    }
+    .dropdownStyle select
+    {
+        width:115%; /* this percentage effectively extends the drop down button out of view */
+        height:30px;
+        cursor:pointer;
+        margin-left:-7px;
+        background-color:transparent /* this hides the select's background making any styling visible from the div */;
+        background-image:none;
+        -webkit-appearance: none /* this is required for Webkit browsers */;
+        border:none;
+        box-shadow:none;
+        padding:0.3em 0.5em; /* padding should be added to the select, not the div */
+    }
+    .dropdownStyle:hover
+    {
+        background:url('../Images/selecthover.png') no-repeat bottom right;
+        font-weight:bold;
+        border: 1px solid #337b7d;
+        box-shadow: 0px 0px px 0px #337b7d;
+    }
+    .dropdownStyle:hover select
+    {
+    }
+    
+    
+    
+    .textBoxStyle       /* Textbox control style*/
+    {
+		margin:3px 5px 3px 0px;
+	    width: 196px;
+	    height: 27px;
+	    padding: 0 5px 0 5px;
+	    color: #3c3c3c;
+	    border: 1px solid #bec2c4;
+    }
+    .textBoxStyle:hover     /* Textbox control style on hover*/
+    {
+        border: 1px solid #337b7d;
+        box-shadow: 0px 0px 4px 1px #337b7d;
+    }
+    .textBoxStyle:focus     /* Textbox control style on focus  */
+    {
+	    box-shadow: 0px 0px 3px 1px #085a5b;
+        border:0.1em solid #085a5b;
+    }
+    
+    .stextBoxStyle       /* Textbox control style*/
+    {
+		margin:3px 5px 3px 0px;
+	    width: 50px;
+	    height: 27px;
+	    padding: 0 5px 0 5px;
+	    color: #3c3c3c;
+	    border: 1px solid #bec2c4;
+    }
+    .stextBoxStyle:hover     /* Textbox control style on hover*/
+    {
+        border: 1px solid #337b7d;
+        box-shadow: 0px 0px 4px 1px #337b7d;
+    }
+    .stextBoxStyle:focus     /* Textbox control style on focus  */
+    {
+	    box-shadow: 0px 0px 3px 1px #085a5b;
+        border:0.1em solid #085a5b;
+    }
+     .mtextBoxStyle       /* Textbox control style*/
+    {
+        resize:none;
+		margin:3px 5px 3px 0px;
+        padding:5px 5px 5px 5px;
+	    width: 196px;
+	    height: 75px;
+	    color: #3c3c3c;
+	    border: 1px solid #bec2c4;
+    }
+    .mtextBoxStyle:hover     /* Textbox control style on hover*/
+    {
+        border: 1px solid #337b7d;
+        box-shadow: 0px 0px 4px 1px #337b7d;
+    }
+    .mtextBoxStyle:focus     /* Textbox control style on focus  */
+    {
+	    box-shadow: 0px 0px 3px 1px #085a5b;
+	    border:0.1em solid #085a5b;
+    }
+    .btn_Style
+    {
+        cursor:pointer;
+        width:112px;
+        color:White;
+        padding-bottom:2px;
+        font-size:12pt;
+        font-weight:bold;
+        height:29px;
+        border-radius:4px;
+        border-style:none;
+        background:url('../Images/button.png') repeat-x; 
+    }
+    .btn_Style:hover
+    {
+        box-shadow: 0px 0px 3px 1px #0099ff;
+	    border:0.1em solid white;
+    }
+     .btnStyle
+    {
+        cursor:pointer;
+        width:112px;
+        color:White;
+        padding-bottom:2px;
+        font-size:12pt;
+        font-weight:bold;
+        height:29px;
+        border-radius:4px;
+        border-style:none;
+        margin: 5px 0 0px 31%;
+        position:absolute;
+        background:url('../Images/button.png') repeat-x; 
+    }
+    .btnStyle:hover
+    {
+        box-shadow: 0px 0px 3px 1px #0099ff;
+	    border:0.1em solid white;
+    }
+  
+    .grd_Style
+    {
+    	overflow-x:auto; width:800px;
+    }
+    .mGrid 
+    { 
+    	width: 100%; 
+    	background-color: #fff; 
+    	margin: 5px 0 10px 0; 
+        border: solid 1px #525252; 
+        border-collapse:collapse; 
+    }      
+    .mGrid td 
+    {
+    	 padding: 2px; border: solid 1px #c1c1c1; color: #717171; 
+    }    
+    .mGrid th 
+    {
+    	 padding: 4px 2px; 
+    	 color: #05cdee; 
+    	 background: #424242 url(../Images/grd_head.png) repeat-x top; 
+		 border: solid 1px #525252;
+		 /*border-left: solid 1px #525252;*/
+		 font-size: 0.9em; 
+    }
+    .mGrid .alt 
+    {
+    	 background: #fcfcfc url(../Images/grd_alt.png) repeat-x top; 
+    }
+    .mGrid .pgr 
+    {
+    	background: #424242 url(../Images/grd_pgr.png) repeat-x top; 
+    }
+    .mGrid .pgr table 
+    {
+    	 margin: 5px 0; 
+    }
+    .mGrid .pgr td 
+    {
+    	 border-width: 0; 
+    	 padding: 0 6px; 
+    	 border-left: solid 1px #666; 
+		 font-weight: bold; 
+		 color: #05cdee; 
+		 line-height: 12px; 
+    }  
+    .mGrid .pgr a 
+    {
+    	 color: #555; 
+    	 text-decoration: none; 
+    }
+    .mGrid .pgr a:hover 
+    { 
+    	color: #E0E0E0; 
+    	text-decoration: none; 
+    }
+    
+    
+    
+    .mGrid .input
+    {
+    	box-shadow:0px 0px 2px 1pxAqua;
+    	width:90PX;
+    }
+    .mGrid .input:hover
+    {
+    	box-shadow:0px 0px 2px 1px Purple;
+    }
+    .mgrid .input:focus
+    {
+        box-shadow:0px 0px 2px 1px 	#2E9AFE;
+    }
+    .input
+    {
+    	width:55px;
+    }
+    .CustomValidatorCalloutStyle div, 
+.CustomValidatorCalloutStyle td { 
+    border:solid 1px blue; background-color: #ADD8E6; 
+}
+.modalBackground {
+	background-color:Black;
+	filter:alpha(opacity=90);
+	opacity:0.8;
+}
+.modalPopup {
+	background-color:#FFFFFF;
+	border-width:3px;
+	border-style:solid;
+	border-color:black;
+	padding-top:10px;
+	padding-left:10px;
+	width:300px;
+	height:140px;
+}
